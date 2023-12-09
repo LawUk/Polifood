@@ -1,43 +1,50 @@
+
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
 
 /**
- * copyright 2023 you
+ * copyright 2022 codewithsadee
  */
+
+
+
+
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
 :root {
+
   /**
    * colors
    */
-  --guinda: hsl(330, 100%, 30%);
-  --blanco: hsl(0, 0%, 100%);
-  --guinda_20: hsla(330, 100%, 30%, 0.2);
-  --guinda_30: hsla(330, 100%, 30%, 0.3);
-  --gris-x-11-gris: hsl(0, 0%, 73%);
-  --guinda-claro: hsl(330, 100%, 80%);
-  --gris-espanol: hsl(0, 0%, 60%);
-  --plata-sonic: hsl(0, 0%, 47%);
-  --azafran-profundo: hsl(32, 100%, 59%);
-  --naranja-oscuro: hsl(28, 100%, 58%);
-  --arena-del-desierto: hsl(23, 49%, 82%);
-  --isabelino: hsl(38, 44%, 96%);
+
+  --rich-black-fogra-29: hsl(210, 26%, 7%);
+  --champagne-pink_20: hsla(23, 61%, 86%, 0.2);
+  --independence_30: hsla(245, 17%, 29%, 0.3);
+  --gray-x-11-gray: hsl(0, 0%, 73%);
+  --champagne-pink: hsl(23, 61%, 86%);
+  --spanish-gray: hsl(0, 0%, 60%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  --deep-saffron: hsl(32, 100%, 59%);
+  --dark-orange: hsl(28, 100%, 58%);
+  --desert-sand: hsl(23, 49%, 82%);
+  --isabelline: hsl(38, 44%, 96%);
   --gainsboro: hsl(0, 0%, 87%);
-  --mandarina: hsl(31, 84%, 50%);
-  --cinabrio: hsl(3, 90%, 55%);
-  --negro_95: hsla(0, 0%, 0%, 0.95);
+  --tangerine: hsl(31, 84%, 50%);
+  --cinnabar: hsl(3, 90%, 55%);
+  --black_95: hsla(0, 0%, 0%, 0.95);
   --cultured: hsl(0, 0%, 93%);
-  --blanco: hsl(0, 0%, 100%);
-  --negro: hsl(0, 0%, 0%);
-  --onix: hsl(0, 0%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --onyx: hsl(0, 0%, 27%);
 
   /**
    * typography
    */
+
   --ff-shadows-into-light: 'Shadows Into Light', cursive;
   --ff-roboto: 'Roboto', sans-serif;
   --ff-rubik: 'Rubik', sans-serif;
@@ -55,28 +62,31 @@
   /**
    * spacing
    */
+
   --section-padding: 60px;
 
   /**
    * shadow
    */
+
   --shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.2);
   --shadow-2: 0 1px 2px hsla(0, 0%, 0%, 0.2);
 
   /**
    * transition
    */
+
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease;
 
   /**
    * clip path
    */
+
   --clip-path-1: polygon(0 40%, 100% 0%, 100% 100%, 0 100%);
   --clip-path-2: polygon(0 0%, 100% 0%, 100% 100%, 0 100%);
+
 }
-
-
 
 /*-----------------------------------*\
   #RESET
