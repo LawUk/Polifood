@@ -1153,8 +1153,8 @@ window.addEventListener("scroll", function () {
   position: absolute;
   bottom: -11px;
   left: -160px;
-  width: 42px; /* Nuevo ancho deseado */
-  height: 42px; /* Nueva altura deseada */
+  width: 21.17cm; /* Nuevo ancho deseado */
+  height: 21.17px; /* Nueva altura deseada */
   animation: running-cycle 20s linear infinite;
 }
 
