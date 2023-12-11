@@ -1149,12 +1149,11 @@ window.addEventListener("scroll", function () {
 }
 
 .footer-top::after {
-  content: url(../images/oki.svg);
+  content: url(../images/delivery-boy.svg);
   position: absolute;
   bottom: -11px;
   left: -160px;
-  width: 80px; /* Nuevo ancho deseado */
-  height: 70px; /* Nueva altura deseada */
+  width: 160px;
   animation: running-cycle 20s linear infinite;
 }
 
