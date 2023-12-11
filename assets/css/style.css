@@ -1151,8 +1151,8 @@ body.active { overflow: hidden; }
   position: absolute;
   bottom: -11px;
   left: -160px;
-  width: 160px; /* Nuevo ancho */
-  height: 160px; /* Nuevo alto */
+  width: 42px; /* Nuevo ancho deseado */
+  height: 42px; /* Nueva altura deseada */
   animation: running-cycle 20s linear infinite;
 }
 
