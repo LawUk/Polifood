@@ -866,7 +866,7 @@ body.active { overflow: hidden; }
 
 const deliveryBoy = document.querySelector(".delivery-img");
 
-let deliveryBoyMove = -10; // Ajusta este valor según tus necesidades
+let deliveryBoyMove = -20; // Ajusta este valor según tus necesidades
 let lastScrollPos = 0;
 
 window.addEventListener("scroll", function () {
