@@ -879,7 +879,7 @@ window.addEventListener("scroll", function () {
     if (lastScrollPos < activeScrollPos) {
       deliveryBoyMove += 0.1; // Ajusta este valor según tus necesidades
     } else {
-      deliveryBoyMove -= 0.3; // Ajusta este valor según tus necesidades
+      deliveryBoyMove -= 0.1; // Ajusta este valor según tus necesidades
     }
 
     lastScrollPos = activeScrollPos;
