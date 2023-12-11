@@ -76,7 +76,7 @@ window.addEventListener("scroll", function () {
 
   let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
-  if (deliveryBoyTopPos < 600 && deliveryBoyTopPos > -250) {
+  if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250) {
     let activeScrollPos = window.scrollY;
 
     if (lastScrollPos < activeScrollPos) {
