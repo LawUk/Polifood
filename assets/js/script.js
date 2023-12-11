@@ -82,7 +82,7 @@ window.addEventListener("scroll", function () {
     if (lastScrollPos < activeScrollPos) {
       deliveryBoyMove += 1;
     } else {
-      deliveryBoyMove -= 1;
+      deliveryBoyMove += 1; // Puedes ajustar la velocidad cambiando este valor
     }
 
     lastScrollPos = activeScrollPos;
