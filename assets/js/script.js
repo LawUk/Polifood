@@ -76,13 +76,13 @@ window.addEventListener("scroll", function () {
 
   let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
-  if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250) {
+  if (deliveryBoyTopPos < 600 && deliveryBoyTopPos > -250) {
     let activeScrollPos = window.scrollY;
 
     if (lastScrollPos < activeScrollPos) {
-      deliveryBoyMove -= 1;
+      deliveryBoyMove += 1;
     } else {
-      deliveryBoyMove += 1; // Puedes ajustar la velocidad cambiando este valor
+      deliveryBoyMove -= 1;
     }
 
     lastScrollPos = activeScrollPos;
