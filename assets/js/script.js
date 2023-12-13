@@ -80,7 +80,7 @@ window.addEventListener("scroll", function () {
     let activeScrollPos = window.scrollY;
 
     if (lastScrollPos < activeScrollPos) {
-      deliveryBoyMove += 1;
+      deliveryBoyMove -= 1;
     } else {
       deliveryBoyMove -= 1;
     }
