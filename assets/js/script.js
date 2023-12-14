@@ -73,20 +73,19 @@ let deliveryBoyMove = -80;
 let lastScrollPos = 0;
 
 window.addEventListener("scroll", function () {
-
   let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
   if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250) {
     let activeScrollPos = window.scrollY;
 
     if (lastScrollPos < activeScrollPos) {
+      // Only decrease the deliveryBoyMove when scrolling down
       deliveryBoyMove -= 1;
-    } else {
-      deliveryBoyMove += 1;
     }
 
     lastScrollPos = activeScrollPos;
+
+    // Apply the transformation
     deliveryBoy.style.transform = `translateX(${deliveryBoyMove}px)`;
   }
-
 });
