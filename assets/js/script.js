@@ -80,7 +80,7 @@ window.addEventListener("scroll", function () {
 
     if (lastScrollPos < activeScrollPos) {
       // Only decrease the deliveryBoyMove when scrolling down
-      deliveryBoyMove -= 1;
+      deliveryBoyMove += 1;
     }
 
     lastScrollPos = activeScrollPos;
