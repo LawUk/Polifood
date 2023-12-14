@@ -87,8 +87,5 @@ window.addEventListener("scroll", function () {
     }
 
     lastScrollPos = activeScrollPos;
-
-    // Apply the transformation while respecting the initial position
-    deliveryBoy.style.transform = `translateX(${initialDeliveryBoyPos + deliveryBoyMove}px)`;
   }
 });
